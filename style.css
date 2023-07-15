@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+::-moz-selection {
+  background-color: #ff5100;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #ff5100;
+  color: #ffffff;
+}
+
+.wraper-login {
+  padding-top: 2rem;
+  background-color: #f0f2f5;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.wraper-login .login-box {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+}
+.wraper-login .login-box .login-box-bg {
+  background-color: #ffffff;
+  width: 400px;
+  height: 300px;
+  padding: 15px 5px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 0.1px rgba(146, 146, 146, 0.445);
+}
+.wraper-login .login-box .login-box-bg .login-text {
+  padding: 0.4rem 0;
+  font-size: 1.2rem;
+}
+.wraper-login .login-box .login-box-bg .form-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  padding: 1rem;
+}
+.wraper-login .login-box .login-box-bg .form-input .link {
+  text-align: center;
+}
+.wraper-login .login-box .login-box-bg .form-input .link a {
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.wraper-login .login-box .login-box-bg .form-input .link a:hover {
+  text-decoration: underline;
+}
+.wraper-login .login-box .login-box-bg .form-input input {
+  padding: 1rem;
+  border: 1px solid rgba(146, 146, 146, 0.295);
+  border-radius: 10px;
+}
+.wraper-login .login-box .login-box-bg .form-input input:focus {
+  outline: none;
+}
+.wraper-login .login-box .login-box-bg .form-input input:focus::-moz-placeholder {
+  opacity: 0.6;
+}
+.wraper-login .login-box .login-box-bg .form-input input:focus::placeholder {
+  opacity: 0.6;
+}
+.wraper-login .login-box .login-box-bg .form-input input::-moz-placeholder {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+.wraper-login .login-box .login-box-bg .form-input input::placeholder {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+.wraper-login .login-box .login-box-bg .form-input input[type=submit] {
+  background-color: #1877F2;
+  color: #ffffff;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  font-weight: 600;
+  padding: 0.6rem 0;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
